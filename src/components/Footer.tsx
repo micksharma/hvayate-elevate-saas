@@ -16,12 +16,17 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              Leading SAAS solutions provider specializing in logistics, mobile applications, 
-              and enterprise software development.
+              Leading SAAS solutions provider with 10+ lakh downloads across platforms. 
+              Creators of TruxCargo, Mobile Goo, and ServicePlug.
             </p>
-            <div className="flex items-center space-x-2 text-muted-foreground">
-              <Smartphone size={16} />
-              <span className="text-sm">Creators of TruxCargo</span>
+            <div className="space-y-1">
+              <div className="flex items-center space-x-2 text-muted-foreground">
+                <Smartphone size={16} />
+                <span className="text-sm">TruxCargo • Mobile Goo • ServicePlug</span>
+              </div>
+              <div className="text-xs text-muted-foreground/70">
+                Trusted by millions of users worldwide
+              </div>
             </div>
           </div>
 
@@ -42,9 +47,9 @@ const Footer = () => {
             <h3 className="font-semibold mb-4 text-foreground">Company</h3>
             <ul className="space-y-2 text-muted-foreground">
               <li><a href="#about" className="hover:text-primary transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">TruxCargo Case Study</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Blog</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">TruxCargo Platform</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">Mobile Goo Marketplace</a></li>
+              <li><a href="#" className="hover:text-primary transition-colors">ServicePlug Network</a></li>
               <li><a href="#contact" className="hover:text-primary transition-colors">Contact</a></li>
             </ul>
           </div>

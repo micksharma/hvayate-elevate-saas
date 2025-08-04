@@ -58,11 +58,11 @@ const Services = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            Our <span className="bg-gradient-primary bg-clip-text text-transparent">Services</span>
+            Our <span className="bg-gradient-primary bg-clip-text text-transparent">Expertise</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            We provide comprehensive SAAS solutions that drive business growth and digital transformation. 
-            From concept to deployment, we've got you covered.
+            Enterprise-grade SAAS solutions trusted by millions. We specialize in building scalable platforms 
+            that transform industries - from logistics automation to e-commerce marketplaces.
           </p>
         </div>
 

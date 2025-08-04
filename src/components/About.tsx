@@ -6,28 +6,28 @@ const About = () => {
   const achievements = [
     {
       icon: Users,
-      number: "50K+",
-      label: "Active Users on TruxCargo"
+      number: "10L+",
+      label: "Total App Downloads"
     },
     {
       icon: Star,
       number: "4.8",
-      label: "App Store Rating"
+      label: "Average App Rating"
     },
     {
       icon: Award,
-      number: "5+",
-      label: "Years Experience"
+      number: "3",
+      label: "Major Platforms"
     }
   ];
 
   const features = [
-    "Proven track record with TruxCargo logistics platform",
-    "Expertise in mobile and web application development",
-    "End-to-end SAAS solution development",
-    "Scalable cloud infrastructure implementation",
-    "24/7 support and maintenance",
-    "Agile development methodology"
+    "TruxCargo: Revolutionary logistics platform with 50K+ users",
+    "Mobile Goo: Device marketplace with 10+ lakh downloads",
+    "ServicePlug: Automotive services marketplace platform",
+    "Enterprise-grade scalable cloud infrastructure",
+    "Multi-platform mobile and web development expertise",
+    "24/7 support with 99.9% uptime guarantee"
   ];
 
   return (
@@ -41,9 +41,9 @@ const About = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              We are a leading SAAS company specializing in logistics and business automation solutions. 
-              Our flagship product, TruxCargo, has revolutionized the logistics industry with its 
-              innovative approach to courier management and cost optimization.
+              We are a leading SAAS company with a proven track record of building platforms that serve millions. 
+              Our portfolio includes TruxCargo (logistics), Mobile Goo (device marketplace with 10+ lakh downloads), 
+              and ServicePlug (automotive marketplace) - each transforming their respective industries.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -85,20 +85,24 @@ const About = () => {
             {/* Success Story Card */}
             <Card className="p-8 bg-gradient-primary text-white shadow-glow">
               <CardContent className="p-0">
-                <h3 className="text-2xl font-bold mb-4">Success Story: TruxCargo</h3>
+                <h3 className="text-2xl font-bold mb-4">Our Platform Portfolio</h3>
                 <p className="text-white/90 mb-6 leading-relaxed">
-                  Our logistics platform TruxCargo has transformed how businesses manage their shipping operations. 
-                  With features like multi-courier comparison, real-time tracking, and integrated payment solutions, 
-                  it has become the go-to platform for efficient logistics management.
+                  From TruxCargo's logistics revolution to Mobile Goo's 10+ lakh downloads and ServicePlug's 
+                  automotive marketplace - we create platforms that scale and transform entire industries 
+                  with cutting-edge technology and user-centric design.
                 </p>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <div className="text-3xl font-bold">22+</div>
-                    <div className="text-white/70">Courier Partners</div>
+                <div className="grid grid-cols-3 gap-4">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold">50K+</div>
+                    <div className="text-white/70 text-sm">TruxCargo Users</div>
                   </div>
-                  <div>
-                    <div className="text-3xl font-bold">99.9%</div>
-                    <div className="text-white/70">Delivery Success</div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold">10L+</div>
+                    <div className="text-white/70 text-sm">Mobile Goo DLs</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold">100+</div>
+                    <div className="text-white/70 text-sm">ServicePlug Partners</div>
                   </div>
                 </div>
               </CardContent>

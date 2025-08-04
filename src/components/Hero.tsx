@@ -25,15 +25,15 @@ const Hero = () => {
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Elevate Your
+              Transform Your
               <span className="bg-gradient-to-r from-white to-primary-glow bg-clip-text text-transparent">
-                {" "}Business
+                {" "}Digital Future
               </span>
             </h1>
             
             <p className="text-xl text-white/90 mb-8 leading-relaxed max-w-lg">
-              Transform your logistics and business operations with our cutting-edge SAAS solutions. 
-              From mobile apps to enterprise platforms, we deliver excellence.
+              Leading SAAS solutions powering millions of users worldwide. From TruxCargo logistics platform 
+              to Mobile Goo's 10+ lakh downloads and ServicePlug's automotive marketplace - we build scalable digital ecosystems.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -49,16 +49,16 @@ const Hero = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 text-white">
               <div>
-                <div className="text-3xl font-bold">50K+</div>
-                <div className="text-white/70">Active Users</div>
+                <div className="text-3xl font-bold">10L+</div>
+                <div className="text-white/70">App Downloads</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold">3+</div>
+                <div className="text-white/70">Major Platforms</div>
               </div>
               <div>
                 <div className="text-3xl font-bold">99.9%</div>
-                <div className="text-white/70">Uptime</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold">24/7</div>
-                <div className="text-white/70">Support</div>
+                <div className="text-white/70">Success Rate</div>
               </div>
             </div>
           </div>
