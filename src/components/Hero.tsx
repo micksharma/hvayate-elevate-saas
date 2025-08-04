@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Package, Truck, Smartphone } from "lucide-react";
 import heroImage from "@/assets/hero-logistics.jpg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -37,13 +38,17 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
+              <a href="#contact">
               <Button variant="hero" size="lg" className="group">
                 Get Started
                 <ArrowRight className="group-hover:translate-x-1 transition-transform" />
               </Button>
+              </a>
+              <a href="#services">
               <Button variant="outline" size="lg" className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm">
                 View Our Work
               </Button>
+              </a>
             </div>
             
             {/* Stats */}

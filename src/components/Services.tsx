@@ -89,9 +89,11 @@ const Services = () => {
                     </div>
                   ))}
                 </div>
+                <a href="#about">
                 <Button variant="outline" size="sm" className="w-full group-hover:border-primary group-hover:text-primary transition-colors">
                   Learn More
                 </Button>
+                </a>
               </CardContent>
             </Card>
           ))}

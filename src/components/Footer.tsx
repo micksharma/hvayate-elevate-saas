@@ -4,7 +4,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-background border-t border-border/20 py-12">
+    <footer id="footer" className="bg-background border-t border-border/20 py-12">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -47,9 +47,9 @@ const Footer = () => {
             <h3 className="font-semibold mb-4 text-foreground">Company</h3>
             <ul className="space-y-2 text-muted-foreground">
               <li><a href="#about" className="hover:text-primary transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">TruxCargo Platform</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Mobile Goo Marketplace</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">ServicePlug Network</a></li>
+              <li><a href="https://play.google.com/store/apps/details?id=com.Truxcargo&pcampaignid=web_share" className="hover:text-primary transition-colors">TruxCargo Platform</a></li>
+              <li><a href="https://play.google.com/store/apps/details?id=com.mobilegoo&pcampaignid=web_share" className="hover:text-primary transition-colors">Mobile Goo Marketplace</a></li>
+              <li><a href="https://www.serviceplug.in/" className="hover:text-primary transition-colors">ServicePlug Network</a></li>
               <li><a href="#contact" className="hover:text-primary transition-colors">Contact</a></li>
             </ul>
           </div>
@@ -60,15 +60,15 @@ const Footer = () => {
             <div className="space-y-3 text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Mail size={16} />
-                <span className="text-sm">hello@hvayate.com</span>
+                <span className="text-sm">mick.sharma02@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Smartphone size={16} />
-                <span className="text-sm">+91 9876543210</span>
+                <span className="text-sm">+91 6397694599</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin size={16} />
-                <span className="text-sm">Mumbai, India</span>
+                <span className="text-sm">Noida, India</span>
               </div>
             </div>
           </div>

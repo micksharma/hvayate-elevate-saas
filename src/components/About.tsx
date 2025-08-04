@@ -56,12 +56,16 @@ const About = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
+              <a href="#contact">
               <Button variant="hero" size="lg">
                 Get In Touch
               </Button>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.Truxcargo&pcampaignid=web_share">
               <Button variant="outline" size="lg">
                 View TruxCargo
               </Button>
+              </a>
             </div>
           </div>
 

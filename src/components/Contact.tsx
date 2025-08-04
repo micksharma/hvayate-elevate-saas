@@ -10,19 +10,19 @@ const Contact = () => {
       icon: Mail,
       title: "Email Us",
       description: "Get in touch via email",
-      contact: "hello@hvayate.com"
+      contact: "mick.sharma02@gmail.com"
     },
     {
       icon: Phone,
       title: "Call Us",
       description: "Speak with our team",
-      contact: "+91 9876543210"
+      contact: "+91 6397694599"
     },
     {
       icon: MapPin,
       title: "Visit Us",
       description: "Our office location",
-      contact: "Mumbai, India"
+      contact: "Noida, India"
     }
   ];
 
